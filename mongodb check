@@ -1,0 +1,13 @@
+#!/bin/bash
+TIME=$(/bin/date +%Y-%m-%d);
+DEST=/mnt/AUengineering/backups/au2_prod_mongo/;
+temp_command="$(ls ${DEST} | grep -c $TIME)"
+if [ ${temp_command} -eq 0 ]
+then
+  echo "backup not found at $DEST/backup$TIME.tgz"
+  exit 2
+
+else
+  echo "OK: file found at ${DEST}"
+  exit 0
+fi

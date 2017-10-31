@@ -1,0 +1,59 @@
+{
+  "checks": {
+    "cpu_metrics": {
+      "handlers": [ "default", "slack" ],
+      "command": "metrics-cpu.rb",
+      "interval": 60,
+      "standalone": true
+    },
+    "disk_checks": {
+      "handlers": [ "default", "slack" ],
+      "command": "check-disk-usage.rb -w 85 -c 95 -p /var/lib/docker/ -x proc",
+      "interval": 60,
+      "standalone": true
+    },
+    "memory_checks": {
+      "handlers": [ "default", "slack" ],
+      "command": "check-memory.rb -w 85 -c 95",
+      "interval": 60,
+      "standalone": true
+    },
+    "cpu_checks": {
+      "handlers": [ "default", "slack" ],
+      "command": "check-cpu.rb -w 85 -c 95",
+      "interval": 60,
+      "standalone": true
+    }
+  },"vmstat_metrics": {
+    "type": "metric",
+    "handlers": [ "graphite" ],
+    "command": "metrics-vmstat.rb",
+    "interval": 10,
+    "output_format": "graphite_plaintext",
+    "standalone": true
+  },
+  "memory_metrics": {
+    "type": "metric",
+    "handlers": [ "graphite" ],
+    "command": "metrics-memory.rb",
+    "interval": 10,
+    "output_format": "graphite_plaintext",
+    "standalone": true
+  },
+  "disk_metrics": {
+    "type": "metric",
+    "handlers": [ "graphite" ],
+    "command": "metrics-disk-usage.rb",
+    "interval": 10,
+    "output_format": "graphite_plaintext",
+    "standalone": true
+  },
+  "network_metrics": {
+    "type": "metric",
+    "handlers": [ "graphite" ],
+    "command": "metrics-interface.rb",
+    "interval": 10,
+    "output_format": "graphite_plaintext",
+    "standalone": true
+  }
+}

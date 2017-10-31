@@ -1,0 +1,202 @@
+version: '2'
+services:
+  aunsight-dslab:
+    image: registry.aunalytics.com:5000/aunsight-dslab
+    hostname: aunsight-dslab
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-graphql:
+    image: registry.aunalytics.com:5000/aunsight-graphql
+    hostname: aunsight-graphql
+    labels:
+      io.rancher.container.pull_image: always
+  sensu-server:
+    image: registry.aunalytics.com:5000/sensu-server-parin
+    hostname: sensu-server
+    stdin_open: true
+    tty: true
+    command:
+    - server
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-email:
+    image: registry.aunalytics.com:5000/aunsight-email
+    hostname: aunsight-email
+    volumes:
+    - /data:/data/test
+    - /data2:/data2/test
+    labels:
+      io.rancher.container.pull_image: always
+  graphite:
+    image: hopsoft/graphite-statsd
+    hostname: graphite
+    stdin_open: true
+    tty: true
+    ports:
+    - 0.0.0.0:8001:80/tcp
+    - 2003:2003/tcp
+    - 2004:2004/tcp
+    - 2023:2023/tcp
+    - 2024:2024/tcp
+    - 8125:8125/udp
+    - 8126:8126/tcp
+    labels:
+      io.rancher.container.pull_image: always
+  redis:
+    image: redis
+    hostname: redis
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-sightglass:
+    image: registry.aunalytics.com:5000/aunsight-sightglass
+    hostname: aunsight-sightglass
+    labels:
+      io.rancher.container.pull_image: always
+  docker:
+    privileged: true
+    image: library/docker:17.04.0-dind
+    hostname: docker
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-model:
+    image: registry.aunalytics.com:5000/aunsight-model
+    hostname: aunsight-model
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-cleaner-worker:
+    image: registry.aunalytics.com:5000/aunsight-cleaner-worker
+    hostname: aunsight-cleaner-worker
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-metro-worker:
+    image: registry.aunalytics.com:5000/aunsight-metro-worker
+    hostname: aunsight-metro-worker
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-workflow:
+    image: registry.aunalytics.com:5000/aunsight-workflow
+    hostname: aunsight-workflow
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-activity:
+    image: registry.aunalytics.com:5000/aunsight-activity
+    hostname: aunsight-activity
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-process:
+    image: registry.aunalytics.com:5000/aunsight-process
+    hostname: aunsight-process
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-balancer-metro:
+    image: registry.aunalytics.com:5000/aunsight-balancer-metro
+    hostname: aunsight-balancer-metro
+    environment:
+      NODE_ENV: metro
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-balancer-cleaner:
+    image: registry.aunalytics.com:5000/aunsight-balancer-cleaner
+    hostname: aunsight-balancer-cleaner
+    environment:
+      NODE_ENV: cleaner
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-balancer-validator:
+    image: registry.aunalytics.com:5000/aunsight-balancer-validator
+    hostname: aunsight-balancer-validator
+    environment:
+      NODE_ENV: validator
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-memento:
+    image: registry.aunalytics.com:5000/aunsight-memento
+    hostname: aunsight-memento
+    volumes:
+    - /data:/data/test
+    - /data2:/data2/test
+    labels:
+      io.rancher.container.pull_image: always
+  mongodb:
+    image: mongo:3.2
+    hostname: mongodb
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-minotaur:
+    image: registry.aunalytics.com:5000/aunsight-minotaur
+    hostname: aunsight-minotaur
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-webapp:
+    image: registry.aunalytics.com:5000/aunsight-webapp
+    hostname: aunsight-webapp
+    environment:
+      API_ADDRESS: http://docker.aunalytics.com:7900/
+      API_SOCKETIO_ADDRESS: http://docker.aunalytics.com:7901/
+    ports:
+    - 3008:3000/tcp
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-atlas:
+    image: registry.aunalytics.com:5000/aunsight-atlas
+    hostname: aunsight-atlas
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-peeper:
+    image: registry.aunalytics.com:5000/aunsight-peeper
+    hostname: aunsight-peeper
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-organization:
+    image: registry.aunalytics.com:5000/aunsight-organization
+    hostname: aunsight-organization
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-tracker:
+    image: registry.aunalytics.com:5000/aunsight-tracker
+    hostname: aunsight-tracker
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-tokamak:
+    image: registry.aunalytics.com:5000/aunsight-tokamak
+    hostname: aunsight-tokamak
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-identity:
+    image: registry.aunalytics.com:5000/aunsight-identity
+    hostname: aunsight-identity
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-resource:
+    image: registry.aunalytics.com:5000/aunsight-resource
+    hostname: aunsight-resource
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-permission:
+    image: registry.aunalytics.com:5000/aunsight-permission
+    hostname: aunsight-permission
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-project:
+    image: registry.aunalytics.com:5000/aunsight-project
+    hostname: aunsight-project
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-growler:
+    image: registry.aunalytics.com:5000/aunsight-growler
+    hostname: aunsight-growler
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-api:
+    image: registry.aunalytics.com:5000/aunsight-api
+    hostname: aunsight-api
+    ports:
+    - 7900:7900/tcp
+    - 7901:7901/tcp
+    labels:
+      io.rancher.container.pull_image: always
+  aunsight-validator-worker:
+    image: registry.aunalytics.com:5000/aunsight-validator-worker
+    hostname: aunsight-validator-worker
+    labels:
+      io.rancher.container.pull_image: always
