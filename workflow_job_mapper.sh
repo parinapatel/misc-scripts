@@ -9,9 +9,9 @@ echo $output | jq .[$i].Name | tr -d '\n'
 
 # echo -n "  Created : "
 # echo $output | jq .[$i].Created | tr -d '\n'
-echo -n "ORG : "
-echo $output | jq .[$i].Config.Cmd[9] | tr -d '\n'
-
+echo -n " ORG : "
+temp=$(echo $output | jq .[$i].Config.Cmd[9])
+cat list_org.json | jq  '.result[]| select(.id=='${temp}') | .name' | tr -d '\n'
 echo -n "  Job Id : "
 echo $output | jq .[$i].Config.Cmd[5]
 

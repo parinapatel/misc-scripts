@@ -23,8 +23,8 @@
       "command": "check-cpu.rb -w 85 -c 95",
       "interval": 60,
       "standalone": true
-    }
-  },"vmstat_metrics": {
+    },
+    "vmstat_metrics": {
     "type": "metric",
     "handlers": [ "graphite" ],
     "command": "metrics-vmstat.rb",
@@ -56,4 +56,5 @@
     "output_format": "graphite_plaintext",
     "standalone": true
   }
+}
 }
