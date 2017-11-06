@@ -1,0 +1,102 @@
+{
+	"info": {
+		"name": "docker registry",
+		"_postman_id": "010fc978-7d2a-82b0-391d-d77415f960f1",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "list all the registry repos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{docker_registry}}/_catalog",
+					"host": [
+						"{{docker_registry}}"
+					],
+					"path": [
+						"_catalog"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "list all the registry images tag",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{docker_registry}}/{{repos}}/tags/list",
+					"host": [
+						"{{docker_registry}}"
+					],
+					"path": [
+						"{{repos}}",
+						"tags",
+						"list"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "list all the registry image information",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{docker_registry}}/{{repos}}/manifests/{{tag}}",
+					"host": [
+						"{{docker_registry}}"
+					],
+					"path": [
+						"{{repos}}",
+						"manifests",
+						"{{tag}}"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "list n registry repos from last ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{docker_registry}}/_catalog?n=50&last=aunalytics%2Fbillboard_webapp",
+					"host": [
+						"{{docker_registry}}"
+					],
+					"path": [
+						"_catalog"
+					],
+					"query": [
+						{
+							"key": "n",
+							"value": "50",
+							"equals": true
+						},
+						{
+							"key": "last",
+							"value": "aunalytics%2Fbillboard_webapp",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
