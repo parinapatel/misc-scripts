@@ -1,3 +1,4 @@
+#!/bin/bash
 vi /etc/sysconfig/network-scripts/ifcf0ens3
 
 

@@ -1,4 +1,4 @@
-From jenkins/jenkins
+FROM jenkins/jenkins
 
 USER root
 RUN wget https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64 && \

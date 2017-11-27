@@ -1,4 +1,4 @@
-From  jenkins/ssh-slave
+FROM  jenkins/ssh-slave
 USER root
 RUN wget https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64 && \
    mv jq-linux64 jq && \
