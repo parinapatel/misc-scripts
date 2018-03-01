@@ -11,6 +11,6 @@ RUN curl -fsSLO https://get.docker.com/builds/Linux/x86_64/docker-17.04.0-ce.tgz
 RUN apt update && apt install -qqy npm && \
 curl -sL https://deb.nodesource.com/setup_6.x |bash - && \
 apt-get install -y nodejs
-ENV REGISTRY_URL="registry.aunalytics.com" REGISTRY_USER="admin" REGISTRY_PASSWORD="PASSWORD"
+ARG REGISTRY_URL="registry.aunalytics.com" REGISTRY_USER="admin" REGISTRY_PASSWORD="PASSWORD"
 RUN npm install -g lodash && npm install phonegap -g && docker login ${REGISTRY_URL} -u ${REGISTRY_USER} -p ${REGISTRY_PASSWORD}
 USER jenkins
