@@ -13,6 +13,6 @@ curl -sL https://deb.nodesource.com/setup_6.x |bash - && \
 apt-get install -y nodejs
 ARG REGISTRY_URL="registry.aunalytics.com"
 ARG REGISTRY_USER="admin"
-ARG REGISTRY_PASSWORD
+ARG REGISTRY_PASSWORD=""
 RUN npm install -g lodash && npm install phonegap -g && docker -H swedocker1.aunalytics.com:2375 login ${REGISTRY_URL} -u ${REGISTRY_USER} -p ${REGISTRY_PASSWORD}
 USER jenkins
