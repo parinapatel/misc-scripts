@@ -34,8 +34,8 @@ for repo in $final_repos; do
     continue
   fi
   newregtags=$(curl -s https://registrynew.aunalytics.com/api/repositories/$new_repo/tags/   --header 'Authorization: Basic YWRtaW46SGFyYm9yMTIzNDU=' | jq -r '.[].name' | sort -h)
-  missing_tags=$(comm -23 <(echo "$newregtags") <(echo "$oldregtags"))
-  comman_tags=$(comm -12 <(echo "$newregtags") <(echo "$oldregtags"))
+  missing_tags=$(grep -Fxv -f <(echo "$newregtags") <(echo "$oldregtags"))
+  comman_tags=$(grep -Fx -f <(echo "$newregtags") <(echo "$oldregtags"))
   echo $repo
   for comman_tag in $comman_tags; do
   new_sha=$(curl -X GET "https://registrynew.aunalytics.com/api/repositories/$new_repo/tags/$comman_tag" -s | jq -r ".created")
