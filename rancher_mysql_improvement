@@ -1,0 +1,131 @@
+>>  MySQLTuner 1.7.7 - Major Hayden <major@mhtx.net>
+>>  Bug reports, feature requests, and downloads at http://mysqltuner.com/
+>>  Run with '--help' for additional options and output filtering
+
+[--] Skipped version check for MySQLTuner script
+[!!] Successfully authenticated with no password - SECURITY RISK!
+[OK] Currently running supported MySQL version 5.7.20
+[OK] Operating on 64-bit architecture
+
+-------- Log file Recommendations ------------------------------------------------------------------
+[--] Log file: /var/lib/mysql/44ffc46cd54e.err(0B)
+[!!] Log file /var/lib/mysql/44ffc46cd54e.err doesn't exist
+[!!] Log file /var/lib/mysql/44ffc46cd54e.err isn't readable.
+
+-------- Storage Engine Statistics -----------------------------------------------------------------
+[--] Status: +ARCHIVE +BLACKHOLE +CSV -FEDERATED +InnoDB +MEMORY +MRG_MYISAM +MyISAM +PERFORMANCE_SCHEMA
+[--] Data in InnoDB tables: 857M (Tables: 104)
+[OK] Total fragmented tables: 0
+
+-------- Security Recommendations ------------------------------------------------------------------
+[OK] There are no anonymous accounts for any database users
+[!!] failed to execute: SELECT CONCAT(user, '@', host) FROM mysql.user WHERE (IF(plugin='mysql_native_password', authentication_string, password) = '' OR IF(plugin='mysql_native_password', authentication_string, password) IS NULL) AND plugin NOT IN ('unix_socket', 'win_socket', 'auth_pam_compat')
+[!!] FAIL Execute SQL / return code: 256
+[OK] All database users have passwords assigned
+[!!] failed to execute: SELECT CONCAT(user, '@', host) FROM mysql.user WHERE CAST(IF(plugin='mysql_native_password', authentication_string, password) as Binary) = PASSWORD(user) OR CAST(IF(plugin='mysql_native_password', authentication_string, password) as Binary) = PASSWORD(UPPER(user)) OR CAST(IF(plugin='mysql_native_password', authentication_string, password) as Binary) = PASSWORD(CONCAT(UPPER(LEFT(User, 1)), SUBSTRING(User, 2, LENGTH(User))))
+[!!] FAIL Execute SQL / return code: 256
+[!!] User 'cattle@%' hasn't specific host restriction.
+[!!] User 'root@%' hasn't specific host restriction.
+[!!] There is no basic password file list!
+
+-------- CVE Security Recommendations --------------------------------------------------------------
+[--] Skipped due to --cvefile option undefined
+
+-------- Performance Metrics -----------------------------------------------------------------------
+[--] Up for: 20d 5h 36m 44s (122M q [70.074 qps], 71K conn, TX: 558G, RX: 24G)
+[--] Reads / Writes: 87% / 13%
+[--] Binary logging is disabled
+[--] Physical Memory     : 7.6G
+[--] Max MySQL memory    : 338.9M
+[--] Other process memory: 17.5M
+[--] Total buffers: 169.0M global + 1.1M per thread (151 max threads)
+[--] P_S Max memory usage: 72B
+[--] Galera GCache Max memory usage: 0B
+[OK] Maximum reached memory usage: 211.8M (2.71% of installed RAM)
+[OK] Maximum possible memory usage: 338.9M (4.33% of installed RAM)
+[OK] Overall possible memory usage with other process is compatible with memory available
+[OK] Slow queries: 0% (0/122M)
+[OK] Highest usage of available connections: 25% (38/151)
+[OK] Aborted connections: 0.00%  (2/71688)
+[!!] Query cache may be disabled by default due to mutex contention.
+[!!] Query cache efficiency: 0.0% (0 cached / 86M selects)
+[OK] Query cache prunes per day: 0
+[OK] Sorts requiring temporary tables: 0% (0 temp sorts / 2M sorts)
+[!!] Joins performed without indexes: 10928
+[OK] Temporary tables created on disk: 17% (92K on disk / 520K total)
+[OK] Thread cache hit rate: 99% (606 created / 71K connections)
+[!!] Table cache hit rate: 18% (2K open / 11K opened)
+[OK] Open file limit used: 0% (33/65K)
+[OK] Table locks acquired immediately: 100% (152 immediate / 152 locks)
+
+-------- Performance schema ------------------------------------------------------------------------
+[--] Memory used by P_S: 72B
+[--] Sys schema is installed.
+
+-------- ThreadPool Metrics ------------------------------------------------------------------------
+[--] ThreadPool stat is disabled.
+
+-------- MyISAM Metrics ----------------------------------------------------------------------------
+[!!] Key buffer used: 18.3% (1M used / 8M cache)
+[OK] Key buffer size / total MyISAM indexes: 8.0M/43.0K
+[!!] Read Key buffer hit rate: 92.7% (96 cached / 7 reads)
+
+-------- InnoDB Metrics ----------------------------------------------------------------------------
+[--] InnoDB is enabled.
+[--] InnoDB Thread Concurrency: 0
+[OK] InnoDB File per table is activated
+[!!] InnoDB buffer pool / data size: 128.0M/857.1M
+[!!] Ratio InnoDB log file size / InnoDB Buffer pool size (75 %): 48.0M * 2/128.0M should be equal 25%
+[OK] InnoDB buffer pool instances: 1
+[--] Number of InnoDB Buffer Pool Chunk : 1 for 1 Buffer Pool Instance(s)
+[OK] Innodb_buffer_pool_size aligned with Innodb_buffer_pool_chunk_size & Innodb_buffer_pool_instances
+[OK] InnoDB Read buffer efficiency: 99.96% (6021224004 hits/ 6023595591 total)
+[!!] InnoDB Write Log efficiency: 84.1% (51594844 hits/ 61350859 total)
+[OK] InnoDB log waits: 0.00% (0 waits / 9756015 writes)
+
+-------- AriaDB Metrics ----------------------------------------------------------------------------
+[--] AriaDB is disabled.
+
+-------- TokuDB Metrics ----------------------------------------------------------------------------
+[--] TokuDB is disabled.
+
+-------- XtraDB Metrics ----------------------------------------------------------------------------
+[--] XtraDB is disabled.
+
+-------- RocksDB Metrics ---------------------------------------------------------------------------
+[--] RocksDB is disabled.
+
+-------- Spider Metrics ----------------------------------------------------------------------------
+[--] Spider is disabled.
+
+-------- Connect Metrics ---------------------------------------------------------------------------
+[--] Connect is disabled.
+
+-------- Galera Metrics ----------------------------------------------------------------------------
+[--] Galera is disabled.
+
+-------- Replication Metrics -----------------------------------------------------------------------
+[--] Galera Synchronous replication: NO
+[--] No replication slave(s) for this server.
+[--] This is a standalone server.
+
+-------- Recommendations ---------------------------------------------------------------------------
+General recommendations:
+   Restrict Host for user@% to user@SpecificDNSorIp
+   Adjust your join queries to always utilize indexes
+   Increase table_open_cache gradually to avoid file descriptor limits
+   Read this before increasing table_open_cache over 64: http://bit.ly/1mi7c4C
+   This is MyISAM only table_cache scalability problem, InnoDB not affected.
+   See more details here: https://bugs.mysql.com/bug.php?id=49177
+   This bug already fixed in MySQL 5.7.9 and newer MySQL versions.
+   Beware that open_files_limit (65536) variable
+   should be greater than table_open_cache (2000)
+   Read this before changing innodb_log_file_size and/or innodb_log_files_in_group: http://bit.ly/2wgkDvS
+Variables to adjust:
+   query_cache_size (=0)
+   query_cache_type (=0)
+   query_cache_limit (> 1M, or use smaller result sets)
+   join_buffer_size (> 256.0K, or always use indexes with joins)
+   table_open_cache (> 2000)
+   innodb_buffer_pool_size (>= 857M) if possible.
+   innodb_log_file_size should be (=16M) if possible, so InnoDB total log files size equals to 25% of buffer pool size.
