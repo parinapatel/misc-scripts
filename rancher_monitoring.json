@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "rancher_metadata": {
+      "type": "metric",
+      "handlers": [ "graphite" ],
+      "command": "/etc/sensu/plugins/rancher_metadata_collection.sh",
+      "interval": 30,
+      "subscribers": [ "rancher" ]
+    },
+    "rancher_lb_metics": {
+      "type": "metric",
+      "handlers": [ "graphite" ],
+      "command": "/etc/sensu/plugins/rancher_haproxy_stats.sh",
+      "interval": 10,
+      "subscribers": [ "rancher" ]
+    }
+  }
+}
