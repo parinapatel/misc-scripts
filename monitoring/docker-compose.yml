@@ -1,0 +1,34 @@
+version: '3'
+services:
+  # graphite:
+  #   image:  graphiteapp/graphite-statsd
+  #   deploy:
+  #     replicas: 1
+  #     resources:
+  #       limits:
+  #         cpus: '3'
+  #         memory: 7G
+
+  #   depends_on:
+  #     - memcache
+  #   environment:
+  #     GRAPHITE_WSGI_PROCESSES: 3
+  #     GRAPHITE_WSGI_THREADS: 2
+  #     GRAPHITE_WSGI_REQUEST_TIMEOUT: 30
+  #     GRAPHITE_WSGI_MAX_REQUESTS: 500
+  #     GRAPHITE_TIME_ZONE: "America/Indiana/Indianapolis"
+  #   ports:
+  #     - "2003"
+  memcache:
+    image: memcached:latest
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 64M
+    restart: unless-stopped
+    hostname: memchace-1
+    expose:
+      - "11211" 
+
+  networks:

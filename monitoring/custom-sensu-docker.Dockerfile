@@ -1,0 +1,6 @@
+FROM centos:7
+LABEL maintainers "parin.patel@aunalytics.com"
+RUN yum install -y conntrack-tools 
+COPY network_connection.sh /root/network_connection.sh
+# RUN chmod +x /root/network_connection.sh
+CMD ["bash","/root/network_connection.sh"]

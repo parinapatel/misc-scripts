@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "check_mongodb": {
+      "handlers": [ "default", "slack" ],
+      "command": "check-mongodb.rb --host mongodb.mongodb.rancher.internal --port 27017",
+      "interval": 60,
+      "standalone": true
+    },
+    "check_mongo_backup": {
+      "handlers": [ "default", "slack" ],
+      "command": "check-mongodb-backup.sh",
+      "interval": 86400,
+      "standalone": true
+    },
+    "mongo_metrics": {
+      "type": "metric",
+      "command": "metrics-mongodb.rb --host mongodb.mongodb.rancher.internal --port 27017",
+      "handlers": [ "graphite" ],
+      "interval": 30,
+      "standalone": true
+    },
+    "mongodb_wait": {
+      "type": "metric",
+      "handlers": [ "graphite" ],
+      "command": "metrics-cpu-pcnt-usage.rb",
+      "interval": 10,
+      "standalone": true
+    }
+  }
+}

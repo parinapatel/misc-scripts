@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "VEAL_HOST_TCP_CONNECTION": {
+    "type": "metric",
+    "handlers": [ "graphite" ],
+    "command": "/root/network_connection.sh",
+    "interval": 30,
+    "output_format": "graphite_plaintext",
+    "standalone": true
+  }
+}
+}

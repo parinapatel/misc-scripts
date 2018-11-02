@@ -1,6 +1,6 @@
 #!/bin/bash
 TIME=$(/bin/date +%Y-%m-%d);
-DEST=/mnt/AUengineering/backups/au2_prod_mongo/;
+DEST=/backup;
 temp_command="$(ls ${DEST} | grep -c $TIME)"
 if [ ${temp_command} -eq 0 ]
 then
