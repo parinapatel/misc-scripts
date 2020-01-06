@@ -1,5 +1,4 @@
 #!/usr/local/bin/bash
-# ./jira_pr_status.sh aunalytics.atlassian.net cGFyaW4ucGF0ZWxAYXVuYWx5dGljcy5jb206YzlYUGNSbldCcW9FZ29jQ3duZXAxRkY2 "Quality Assurance"
 JIRA_URL="$1"
 TOKEN="$2"
 SWIM_LANE="$3"
