@@ -1,0 +1,319 @@
+aunsight-api,"AUN-8159 removed config & deps for metro, nibbler & fetch",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api/pull-requests/10
+aunsight-api-module-atlas,"AUN-9476 Added transfer-record-ownership route",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-atlas/pull-requests/3
+aunsight-api-module-chronos,"AUN-8418 Add RAML file for API docs",Robert Jones,https://bitbucket.org/au-developers/aunsight-api-module-chronos/pull-requests/2
+aunsight-api-module-dispatcher,"AUN-8745 Create RAML",Robert Jones,https://bitbucket.org/au-developers/aunsight-api-module-dispatcher/pull-requests/3
+aunsight-api-module-dslab,"support for list-workspace-paginated",Rahul Shah,https://bitbucket.org/au-developers/aunsight-api-module-dslab/pull-requests/6
+aunsight-api-module-dslab,"Adds Volume Commands",Parin Patel,https://bitbucket.org/au-developers/aunsight-api-module-dslab/pull-requests/5
+aunsight-api-module-dslab,"Renames 'project' to 'workspace'",Nick Weiler,https://bitbucket.org/au-developers/aunsight-api-module-dslab/pull-requests/4
+aunsight-api-module-dslab,"AUN-7506 Added issue-project-token route",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-dslab/pull-requests/2
+aunsight-api-module-email,"AUN-8624 Add RAML",Robert Jones,https://bitbucket.org/au-developers/aunsight-api-module-email/pull-requests/1
+aunsight-api-module-gateway,"AUN-9290 Create RAML",Robert Jones,https://bitbucket.org/au-developers/aunsight-api-module-gateway/pull-requests/3
+aunsight-api-module-gateway,"AUN-6980 http gateway",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-gateway/pull-requests/2
+aunsight-api-module-identity,"AUN-7506 Added issue-app-token route for testing purposes",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-identity/pull-requests/4
+aunsight-api-module-memento,"AUN-9476  added transfer-series-ownership route",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-memento/pull-requests/3
+aunsight-api-module-model,"Feature/AUN-9119 - Add methods for context",Rahul Shah,https://bitbucket.org/au-developers/aunsight-api-module-model/pull-requests/4
+aunsight-api-module-organization,"AUN-9468 Create API RAML",Robert Jones,https://bitbucket.org/au-developers/aunsight-api-module-organization/pull-requests/4
+aunsight-api-module-organization,"AUN-6723",Blake Robertson,https://bitbucket.org/au-developers/aunsight-api-module-organization/pull-requests/3
+aunsight-api-module-process,"Feature/AUN-8310 process runtimes",Blake Robertson,https://bitbucket.org/au-developers/aunsight-api-module-process/pull-requests/6
+aunsight-api-module-process,"AUN-9476 added transfer-process-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-process/pull-requests/10
+aunsight-api-module-process,"Feature/AUN-8888 download images",Blake Robertson,https://bitbucket.org/au-developers/aunsight-api-module-process/pull-requests/7
+aunsight-api-module-process,"AUN-8327",Blake Robertson,https://bitbucket.org/au-developers/aunsight-api-module-process/pull-requests/5
+aunsight-api-module-query,"AUN-9476 added transfer-query-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-query/pull-requests/3
+aunsight-api-module-resource,"AUN-7846 refactor resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-resource/pull-requests/1
+aunsight-api-module-resource,"AUN-8734",Blake Robertson,https://bitbucket.org/au-developers/aunsight-api-module-resource/pull-requests/2
+aunsight-api-module-rule,"AUN-9476 added transfer-script-ownership route",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-rule/pull-requests/5
+aunsight-api-module-secret,"AUN-9476 added transfer-secret-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-secret/pull-requests/4
+aunsight-api-module-sightglass,"AUN-9476 added transfer-app-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-sightglass/pull-requests/5
+aunsight-api-module-tokamak,"AUN-9476 added transfer-dataflow-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-tokamak/pull-requests/4
+aunsight-api-module-tokamak,"AUN-8665: added raml",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-api-module-tokamak/pull-requests/3
+aunsight-api-module-tracker,"AUN-8418 RAML for API",Robert Jones,https://bitbucket.org/au-developers/aunsight-api-module-tracker/pull-requests/3
+aunsight-api-module-workflow,"AUN-9476 added transfer-workflow-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-api-module-workflow/pull-requests/3
+aunsight-api-module-workflow,"AUN-8552: added wf raml",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-api-module-workflow/pull-requests/2
+aunsight-api-transport-rest,"Remove "x-powered-by" header from express",Nick Weiler,https://bitbucket.org/au-developers/aunsight-api-transport-rest/pull-requests/2
+aunsight-documentation,"AUN-9468 add RAML for Organization Service",Robert Jones,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/69
+aunsight-documentation,"AUN-9442: updated AuQL docs; rebuilt",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/70
+aunsight-documentation,"AUN-9013 expression and wf operators",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/65
+aunsight-documentation,"AUN-8981: auql doc updates",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/64
+aunsight-documentation,"AUN-9426",Blake Robertson,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/68
+aunsight-documentation,"AUN-9348: added documentation for new get operator default data types",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/67
+aunsight-documentation,"AUN-9290 Gateway Service RAML",Robert Jones,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/66
+aunsight-documentation,"AUN-8745 Dispatcher Service RAML",Robert Jones,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/63
+aunsight-documentation,"AUN-8407: added documentation for AuQL DSL",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/59
+aunsight-documentation,"AUN-8305 Spark docs for LeftAnti-and-LeftAntiCompound",Robert Jones,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/50
+aunsight-documentation,"AUN-8766: added auql hash operator def",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/62
+aunsight-documentation,"AUN-8624 Add AU-EMAIL RAML",Robert Jones,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/56
+aunsight-documentation,"Feature/AUN-8734 resource raml",Blake Robertson,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/61
+aunsight-documentation,"AUN-8700: added documentation for date add and subtract ops; rebuilt html",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/58
+aunsight-documentation,"AUN-8714: added documentation for sightglass send insight workflow component. Rebuilt docs.",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/60
+aunsight-documentation,"AUN-8552: added wf raml; rebuilt",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/55
+aunsight-documentation,"AUN-8665: gathered and rebuilt raml",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/57
+aunsight-documentation,"AUN-8418 Add RAML for AU-CHRONOS and AU-TRACKER (was apparently missed before)",Robert Jones,https://bitbucket.org/au-developers/aunsight-documentation/pull-requests/52
+aunsight-lib-aunsight-js,"AUN-9659: fixed job error type in AuQL jobs",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-aunsight-js/pull-requests/52
+aunsight-lib-aunsight-js,"AUN-9477 obj ctx management",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-aunsight-js/pull-requests/50
+aunsight-lib-aunsight-js,"AUN-9362 - Add workspaces to lib-aunsight-js",Rahul Shah,https://bitbucket.org/au-developers/aunsight-lib-aunsight-js/pull-requests/49
+aunsight-lib-aunsight-js,"AUN-9543 ESOCKETTIMEDOUT job wait",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-aunsight-js/pull-requests/51
+aunsight-lib-aunsight-js,"Feature/AUN-9119 Move organization and project to root",Rahul Shah,https://bitbucket.org/au-developers/aunsight-lib-aunsight-js/pull-requests/48
+aunsight-lib-aunsight-js,"AUN-8849",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-aunsight-js/pull-requests/47
+aunsight-lib-aunsight-js,"AUN-8327",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-aunsight-js/pull-requests/45
+aunsight-lib-aunsight-js,"AUN-7372 proc ttl",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-aunsight-js/pull-requests/31
+aunsight-lib-aunsight-js,"AUN-8629 put rendezvous headers immediately",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-aunsight-js/pull-requests/46
+aunsight-lib-aunsight-js,"AUN-8214",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-aunsight-js/pull-requests/44
+aunsight-lib-aunsight-py,"AUN-9477 obj ctx management",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/33
+aunsight-lib-aunsight-py,"Feature/AUN-9305 lib listing methods",Rahul Shah,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/34
+aunsight-lib-aunsight-py,"Feature/AUN-9305 lib listing for project",Rahul Shah,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/35
+aunsight-lib-aunsight-py,"Update the project function also",Rahul Shah,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/36
+aunsight-lib-aunsight-py,"AUN-9118",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/30
+aunsight-lib-aunsight-py,"AUN-8408 standardize sg errors",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/32
+aunsight-lib-aunsight-py,"AUN-9249: added tracker job model",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/31
+aunsight-lib-aunsight-py,"AUN-8894 pagination utils",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/27
+aunsight-lib-aunsight-py,"AUN-8849",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/29
+aunsight-lib-aunsight-py,"AUN-8934 Add query to lib py",Rahul Shah,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/28
+aunsight-lib-aunsight-py,"AUN-8764 - Add brackets",Rahul Shah,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/26
+aunsight-lib-aunsight-py,"Feature/AUN-8587",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/25
+aunsight-lib-aunsight-py,"Feature/AUN-7996 dataflow api",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-aunsight-py/pull-requests/24
+aunsight-lib-auql-js,"AUN-9442 remove primitive constructors",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-auql-js/pull-requests/33
+aunsight-lib-auql-js,"Feature/AUN-9013 expression and wf operators",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-auql-js/pull-requests/30
+aunsight-lib-auql-js,"Feature/AUN-8981 auql dsl improvements",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-auql-js/pull-requests/29
+aunsight-lib-auql-js,"AUN-9530: pass references onto sub-sub-scripts",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-auql-js/pull-requests/32
+aunsight-lib-auql-js,"AUN-9348: fixes get operator to check for undefined default instead of falsy default",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-auql-js/pull-requests/31
+aunsight-lib-auql-js,"AUN-8407: proof of concept for AuQL DSL",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-auql-js/pull-requests/24
+aunsight-lib-auql-js,"Feature/AUN-8766 auql hash dataset",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-auql-js/pull-requests/28
+aunsight-lib-auql-js,"AUN-8700: added date.add and date.subtract operators",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-auql-js/pull-requests/27
+aunsight-lib-auql-js,"AUN-8589: fix for toLog bug",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-auql-js/pull-requests/26
+aunsight-lib-errors-js,"Feature/AUN-8311 process layers",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-errors-js/pull-requests/20
+aunsight-lib-errors-js,"AUN-8310",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-errors-js/pull-requests/17
+aunsight-lib-errors-js,"AUN-8980 Added ResourceDisabledError",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-errors-js/pull-requests/21
+aunsight-lib-errors-js,"AUN-9285 CRUD Volumes",Parin Patel,https://bitbucket.org/au-developers/aunsight-lib-errors-js/pull-requests/19
+aunsight-lib-errors-js,"Feature/AUN-8888 download images",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-errors-js/pull-requests/18
+aunsight-lib-errors-js,"AUN-7846 refactor resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-errors-js/pull-requests/13
+aunsight-lib-errors-js,"AUN-6980 http gateway",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-errors-js/pull-requests/9
+aunsight-lib-errors-js,"AUN-8327",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-errors-js/pull-requests/16
+aunsight-lib-pig-js,"AUN-9531 Spark transform.Union fix some issues (AUN-9478) and simplify",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/99
+aunsight-lib-pig-js,"AUN-8893 Pig: call ToProperCase UDF",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/97
+aunsight-lib-pig-js,"AUN-9621 Spark - replace the default (pig) types with the spark equivalents for aggregations",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/98
+aunsight-lib-pig-js,"AUN-9412 Spark options to make 2.4 behave like 2.3 (these options do nothing in 2.3)",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/94
+aunsight-lib-pig-js,"AUN-9401 Spark - change trim to cast("double") to trim/clean up the payload before casting to long/int",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/95
+aunsight-lib-pig-js,"AUN-9515 Spark - wrap expression(s) to be cast in ()",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/96
+aunsight-lib-pig-js,"AUN-8863 changed some anonymous fns to be arrow since they refer to `this`",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/87
+aunsight-lib-pig-js,"AUN-8717 Switch to split (substring_index includes "all the rest", not just 1 item)",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/92
+aunsight-lib-pig-js,"AUN-8716 Correct the slice end index",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/91
+aunsight-lib-pig-js,"Bug/AUN-7074 Spark type issues",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/93
+aunsight-lib-pig-js,"AUN-8822 Spark add trim() to CastToInteger and CastToLong",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/86
+aunsight-lib-pig-js,"Bug/AUN-8819 Spark ToDateFormatTimezone",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/90
+aunsight-lib-pig-js,"AUN-8911 expression builder dsl poc",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/88
+aunsight-lib-pig-js,"Bug/AUN-9004 Spark ToDate missing time",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/89
+aunsight-lib-pig-js,"AUN-8741 Spark cast to long for certain date-between expresssion yielding float",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/85
+aunsight-lib-pig-js,"Bug/AUN-7155 Spark load stringified bags",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/81
+aunsight-lib-pig-js,"AUN-8570 Spark call jar file instead of doing slow hadoop commands",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/82
+aunsight-lib-pig-js,"AUN-8732 Spark: select before rename to avoid duplicate field names",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/84
+aunsight-lib-pig-js,"AUN-8710 Spark join.ToProperCase and unit tests",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/83
+aunsight-lib-pig-js,"Bug/AUN-8399 Spark FilterCount and Equality",Robert Jones,https://bitbucket.org/au-developers/aunsight-lib-pig-js/pull-requests/80
+aunsight-lib-sightglass-js,"AUN-9043: schema updates",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-lib-sightglass-js/pull-requests/28
+aunsight-lib-utils-js,"AUN-9308 add sentry to aunsight services",Nick Weiler,https://bitbucket.org/au-developers/aunsight-lib-utils-js/pull-requests/13
+aunsight-lib-utils-js,"Updates Load Balancer to add uniq entries only.",Parin Patel,https://bitbucket.org/au-developers/aunsight-lib-utils-js/pull-requests/12
+aunsight-lib-utils-js,"AUN-8076 query resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-utils-js/pull-requests/8
+aunsight-lib-utils-js,"AUN-7846 refactor resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-utils-js/pull-requests/6
+aunsight-lib-utils-js,"AUN-8214",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-utils-js/pull-requests/10
+aunsight-lib-workflow-js,"AUN-9606",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/61
+aunsight-lib-workflow-js,"AUN-9488",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/60
+aunsight-lib-workflow-js,"AUN-8820",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/55
+aunsight-lib-workflow-js,"AUN-8920 adding descriptions to the wf c",Chaitrali Paripatyadar,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/59
+aunsight-lib-workflow-js,"AUN-9000",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/57
+aunsight-lib-workflow-js,"Adding fields for members and roles ports in wf builder",Chaitrali Paripatyadar,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/56
+aunsight-lib-workflow-js,"AUN-9007",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/58
+aunsight-lib-workflow-js,"AUN-8874",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/54
+aunsight-lib-workflow-js,"AUN-8821",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/52
+aunsight-lib-workflow-js,"AUN-8828 adding schema fields to resourc",Chaitrali Paripatyadar,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/53
+aunsight-lib-workflow-js,"AUN-7372 proc ttl",Nathan Smith,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/28
+aunsight-lib-workflow-js,"AUN-8776 adding fields to wf comp",Chaitrali Paripatyadar,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/51
+aunsight-lib-workflow-js,"Feature/AUN-8214",Blake Robertson,https://bitbucket.org/au-developers/aunsight-lib-workflow-js/pull-requests/49
+aunsight-service-activity,"AUN-9593 - Add DSLAB fixtures for activity",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-activity/pull-requests/24
+aunsight-service-activity,"AUN-8310",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-activity/pull-requests/19
+aunsight-service-activity,"AUN-8595 Added records field to query job events",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-activity/pull-requests/18
+aunsight-service-activity,"Feature/AUN-8888 download images",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-activity/pull-requests/20
+aunsight-service-activity,"AUN-8327",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-activity/pull-requests/15
+aunsight-service-activity,"AUN-8757 Updated Indexes",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-activity/pull-requests/17
+aunsight-service-activity,"AUN-8667 Auth Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-activity/pull-requests/16
+aunsight-service-atlas,"AUN-9304 changed refresh & unset global/service locks to only update if same guid/expiry found",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-atlas/pull-requests/25
+aunsight-service-atlas,"AUN-9476 ctx transfer",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-atlas/pull-requests/23
+aunsight-service-atlas,"AUN-8849",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-atlas/pull-requests/21
+aunsight-service-atlas,"AUN-8336 dispatcher resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-atlas/pull-requests/17
+aunsight-service-atlas,"AUN-8757 Updated Indexes",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-atlas/pull-requests/20
+aunsight-service-atlas,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-atlas/pull-requests/19
+aunsight-service-atlas-lib-js,"AUN-9304 Added refresh-service-lock",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-atlas-lib-js/pull-requests/9
+aunsight-service-atlas-lib-js,"AUN-9476 added transfer-record-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-atlas-lib-js/pull-requests/8
+aunsight-service-atlas-lib-js,"Feature/AUN-7174 table whitespace",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-atlas-lib-js/pull-requests/6
+aunsight-service-chronos,"AUN-7372 proc ttl",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-chronos/pull-requests/4
+aunsight-service-dispatcher,"Feature/AUN-9181 upload s3",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-dispatcher/pull-requests/32
+aunsight-service-dispatcher,"Feature/AUN-9183 describe s3",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-dispatcher/pull-requests/31
+aunsight-service-dispatcher,"AUN-9171",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-dispatcher/pull-requests/29
+aunsight-service-dispatcher,"AUN-8336 dispatcher resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-dispatcher/pull-requests/26
+aunsight-service-dispatcher,"Feature/AUN-8661 submitted by",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-dispatcher/pull-requests/27
+aunsight-service-dispatcher,"AUN-6512",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-dispatcher/pull-requests/25
+aunsight-service-dispatcher-lib-js,"AUN-8874",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-dispatcher-lib-js/pull-requests/6
+aunsight-service-dslab,"AUN-9593 - Emit events for dslab changes",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/41
+aunsight-service-dslab,"AUN-9461 - Move dslab to resource v2",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/40
+aunsight-service-dslab,"Feature/AUN-9256 add filters",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/35
+aunsight-service-dslab,"Feature/AUN-9378 fix hostname url",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/39
+aunsight-service-dslab,"AUN-9285 CRUD Volumes",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/36
+aunsight-service-dslab,"Feature/AUN-9292 migration script",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/37
+aunsight-service-dslab,"AUN-8781 Refector DSLab to use Resource",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/33
+aunsight-service-dslab,"Feature/AUN-7678 ds lab instances as project",Nick Weiler,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/32
+aunsight-service-dslab,"Removes backend name from balancers",Nick Weiler,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/34
+aunsight-service-dslab,"AUN-8768 Allow driverOpts to be passed while creation of volume.",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/31
+aunsight-service-dslab,"AUN-8686 - Add mappings for pytorch",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/28
+aunsight-service-dslab,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/30
+aunsight-service-dslab,"Adds support for https routing",Nick Weiler,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/24
+aunsight-service-dslab,"Adds new create obj structure to service controller",Nick Weiler,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/29
+aunsight-service-dslab,"Remove the disabling token from the command",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/27
+aunsight-service-dslab,"Add mappings for master and dev tags",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/26
+aunsight-service-dslab,"Limit dslab resource selection to type "dslab-executor"",Nick Weiler,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/23
+aunsight-service-dslab,"AUN-7506 Added issue-project-token command for creating a JWT token with extra claims for authorized users to access a project",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-dslab/pull-requests/12
+aunsight-service-dslab-lib-js,"Add back the org and proj to dslab-lib-js",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-dslab-lib-js/pull-requests/12
+aunsight-service-dslab-lib-js,"Feature/AUN-9256 add filters",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-dslab-lib-js/pull-requests/11
+aunsight-service-dslab-lib-js,"AUN-9285 CRUD Volumes",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-dslab-lib-js/pull-requests/10
+aunsight-service-dslab-lib-js,"Renames 'project' to 'workspace'",Nick Weiler,https://bitbucket.org/au-developers/aunsight-service-dslab-lib-js/pull-requests/9
+aunsight-service-dslab-lib-js,"Feature/AUN-8712 add resource arg to ds lab create",Nick Weiler,https://bitbucket.org/au-developers/aunsight-service-dslab-lib-js/pull-requests/8
+aunsight-service-dslab-lib-js,"AUN-7506 Added issue-project-token command",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-dslab-lib-js/pull-requests/4
+aunsight-service-gateway,"AUN-6980 http gateway",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-gateway/pull-requests/3
+aunsight-service-gateway-lib-js,"AUN-6980 http gateway",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-gateway-lib-js/pull-requests/4
+aunsight-service-graphql,"AUN-9477 Added context fields to AuQLScript & StoredQuery",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-graphql/pull-requests/48
+aunsight-service-graphql,"Replace project with id for project",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-graphql/pull-requests/49
+aunsight-service-graphql,"Feature/AUN-9362 add lib js for dslab workspace",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-graphql/pull-requests/46
+aunsight-service-graphql,"feature/AUN-9119 Add project to model entity to graphql",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-graphql/pull-requests/44
+aunsight-service-graphql,"AUN-8327",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-graphql/pull-requests/38
+aunsight-service-graphql,"AUN-8834: corrected job type in reqargs",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-graphql/pull-requests/41
+aunsight-service-graphql,"AUN-8825: updated auql and stored query created by and updated by",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-graphql/pull-requests/42
+aunsight-service-graphql,"AUN-7372 proc ttl",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-graphql/pull-requests/32
+aunsight-service-graphql,"AUN-8407: added dsl field to auql scripts",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-graphql/pull-requests/40
+aunsight-service-graphql,"Feature/AUN-8661 submitted by",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-graphql/pull-requests/39
+aunsight-service-growler,"AUN-8667 Auth and Encryption Support for Growler.",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-growler/pull-requests/4
+aunsight-service-identity,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-identity/pull-requests/21
+aunsight-service-identity,"AUN-7506 Added issue-app-token command and issue-jwt-token util",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-identity/pull-requests/16
+aunsight-service-identity-lib-js,"AUN-7506 Added issue-app-token command",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-identity-lib-js/pull-requests/5
+aunsight-service-logger,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-logger/pull-requests/8
+aunsight-service-memento,"AUN-9476 added transfer-series-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-memento/pull-requests/13
+aunsight-service-memento,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-memento/pull-requests/10
+aunsight-service-memento-lib-js,"AUN-9476 added transfer-series-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-memento-lib-js/pull-requests/4
+aunsight-service-metric,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-metric/pull-requests/6
+aunsight-service-minotaur,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-minotaur/pull-requests/6
+aunsight-service-model,"AUN-9373 Forward the project variable to tracker jobs",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-model/pull-requests/9
+aunsight-service-model,"Feature/AUN-9119 add context to model",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-model/pull-requests/8
+aunsight-service-model,"AUN-8855 Initialize the and array",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-model/pull-requests/7
+aunsight-service-model,"AUN-8844 Objects in the version should be updated not merged",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-model/pull-requests/6
+aunsight-service-model,"Feature/AUN-8661 submitted by",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-model/pull-requests/5
+aunsight-service-model,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-model/pull-requests/4
+aunsight-service-model-lib-js,"Feature/AUN-9119 add context to model",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-model-lib-js/pull-requests/4
+aunsight-service-model-lib-js,"AUN-8713 - model service accept object instead of string",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-model-lib-js/pull-requests/3
+aunsight-service-organization,"AUN-8748: added script to update roles that use rule permissions to use the AuQL equivalents",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-organization/pull-requests/20
+aunsight-service-organization,"AUN-6723",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-organization/pull-requests/16
+aunsight-service-organization,"AUN-9272 adds dslab roles migration script.",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-organization/pull-requests/19
+aunsight-service-organization,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-organization/pull-requests/18
+aunsight-service-organization-lib-js,"AUN-6723",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-organization-lib-js/pull-requests/10
+aunsight-service-permission,"AUN-9476 Added AU-*:manage-*-ownership context permissions",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-permission/pull-requests/39
+aunsight-service-permission,"feature/AUN-9119 Add AU-MODEL fixtures",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-permission/pull-requests/38
+aunsight-service-permission,"Adds new fixtures for dslab workspace",Nick Weiler,https://bitbucket.org/au-developers/aunsight-service-permission/pull-requests/36
+aunsight-service-permission,"AUN-8411 check context permissions cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-permission/pull-requests/33
+aunsight-service-permission,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-permission/pull-requests/35
+aunsight-service-permission-lib-js,"AUN-8411 check context permissions cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-permission-lib-js/pull-requests/5
+aunsight-service-process,"AUN-9476 added transfer-process-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-process/pull-requests/45
+aunsight-service-process,"AUN-9462 ready pool improvements (legacy)",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-process/pull-requests/43
+aunsight-service-process,"AUN-8621 k8s adapter",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-process/pull-requests/33
+aunsight-service-process,"AUN-7608 enforce resource pool limits",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-process/pull-requests/24
+aunsight-service-process,"AUN-8093 process resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-process/pull-requests/28
+aunsight-service-process,"Feature/AUN-8327 publish process",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-process/pull-requests/34
+aunsight-service-process,"AUN-8768 Allow to pass storage driveropt on creation.",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-process/pull-requests/37
+aunsight-service-process,"AUN-7372 proc ttl",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-process/pull-requests/23
+aunsight-service-process,"Feature/AUN-8661 submitted by",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-process/pull-requests/36
+aunsight-service-process,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-process/pull-requests/35
+aunsight-service-process,"Feature/AUN-8623 shared process",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-process/pull-requests/32
+aunsight-service-process-lib-js,"Feature/AUN-9481 update layers",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-process-lib-js/pull-requests/17
+aunsight-service-process-lib-js,"Feature/AUN-8311 process layers",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-process-lib-js/pull-requests/16
+aunsight-service-process-lib-js,"Feature/AUN-8310 process runtimes",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-process-lib-js/pull-requests/14
+aunsight-service-process-lib-js,"AUN-9476 added transfer-process-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-process-lib-js/pull-requests/18
+aunsight-service-process-lib-js,"Feature/AUN-8888 download images",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-process-lib-js/pull-requests/15
+aunsight-service-process-lib-js,"Feature/AUN-8327 publish process",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-process-lib-js/pull-requests/13
+aunsight-service-process-lib-js,"AUN-7372 proc ttl",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-process-lib-js/pull-requests/10
+aunsight-service-query,"AUN-9476 added transfer-query-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-query/pull-requests/23
+aunsight-service-query,"AUN-8595 added records field to query job events",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-query/pull-requests/20
+aunsight-service-query,"AUN-8076 query resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-query/pull-requests/15
+aunsight-service-query,"AUN-8838 Adjusted exit handling to wait on child proc to exit before deciding success",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-query/pull-requests/22
+aunsight-service-query,"Feature/AUN-8661 submitted by",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-query/pull-requests/18
+aunsight-service-query,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-query/pull-requests/17
+aunsight-service-query-lib-js,"AUN-9476 added transfer-query-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-query-lib-js/pull-requests/7
+aunsight-service-resource,"AUN-9461 - Add definitions for dslab-executor",Rahul Shah,https://bitbucket.org/au-developers/aunsight-service-resource/pull-requests/15
+aunsight-service-resource,"AUN-9171",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-resource/pull-requests/14
+aunsight-service-resource,"AUN-8621 k8s process adapter",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-resource/pull-requests/11
+aunsight-service-resource,"AUN-8336 dispatcher resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-resource/pull-requests/9
+aunsight-service-resource,"AUN-8176 tokamak resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-resource/pull-requests/7
+aunsight-service-resource,"AUN-8076 query resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-resource/pull-requests/5
+aunsight-service-resource,"AUN-7846 refactor resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-resource/pull-requests/4
+aunsight-service-resource,"AUN-8093 process resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-resource/pull-requests/6
+aunsight-service-resource,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-resource/pull-requests/12
+aunsight-service-resource-lib-js,"AUN-8980 added enabled flag to v2 create/update & reformatted some v2 schemas",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-resource-lib-js/pull-requests/6
+aunsight-service-resource-lib-js,"AUN-7846 refactor resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-resource-lib-js/pull-requests/4
+aunsight-service-rule,"AUN-9655: fixed metric variable scope issue",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-rule/pull-requests/30
+aunsight-service-rule,"AUN-9476 added transfer-script-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-rule/pull-requests/29
+aunsight-service-rule,"AUN-7451 backend rule to script",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-rule/pull-requests/16
+aunsight-service-rule,"AUN-8407: allow dsl field to be stored on update",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-rule/pull-requests/27
+aunsight-service-rule,"Feature/AUN-8661 submitted by",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-rule/pull-requests/26
+aunsight-service-rule,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-rule/pull-requests/25
+aunsight-service-rule-lib-js,"AUN-9476 added transfer-script-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-rule-lib-js/pull-requests/9
+aunsight-service-rule-lib-js,"AUN-8407: added dsl to schemas for create and update commands",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-rule-lib-js/pull-requests/8
+aunsight-service-secret,"AUN-9476 added transfer-secret-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-secret/pull-requests/10
+aunsight-service-secret,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-secret/pull-requests/8
+aunsight-service-secret-lib-js,"AUN-9476 added transfer-secret-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-secret-lib-js/pull-requests/4
+aunsight-service-sightglass,"AUN-9476 added transfer-app-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-sightglass/pull-requests/57
+aunsight-service-sightglass,"AUN-9043: allow platform config field on create and update commands",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-sightglass/pull-requests/53
+aunsight-service-sightglass,"AUN-8408 standardize sg errors",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-sightglass/pull-requests/54
+aunsight-service-sightglass,"AUN-9296: caps SG source releases",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-sightglass/pull-requests/55
+aunsight-service-sightglass,"AUN-9249: SG publisher now talks to tracker instead of process",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-sightglass/pull-requests/52
+aunsight-service-sightglass,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-sightglass/pull-requests/51
+aunsight-service-sightglass,"AUN-8396: paginate list insights;  remove obsolete list-user-insights storage adapter command",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-sightglass/pull-requests/50
+aunsight-service-sightglass-lib-js,"AUN-9476 added transfer-app-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-sightglass-lib-js/pull-requests/14
+aunsight-service-sightglass-lib-js,"AUN-8396: paginated list-insights; rebuilt schema cache",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-sightglass-lib-js/pull-requests/13
+aunsight-service-tokamak,"AUN-9569 Spark Improve to_iso UDF",Robert Jones,https://bitbucket.org/au-developers/aunsight-service-tokamak/pull-requests/46
+aunsight-service-tokamak,"AUN-9412 Spark - remove hard-coded version in path",Robert Jones,https://bitbucket.org/au-developers/aunsight-service-tokamak/pull-requests/42
+aunsight-service-tokamak,"AUN-9476 added transfer-dataflow-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-tokamak/pull-requests/43
+aunsight-service-tokamak,"Changed exec buffer to 50MB for HDFS ls",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-tokamak/pull-requests/41
+aunsight-service-tokamak,"AUN-8176 tokamak resource v2",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-tokamak/pull-requests/31
+aunsight-service-tokamak,"AUN-8901 Spark - force set TZ to match Pig (for now)",Robert Jones,https://bitbucket.org/au-developers/aunsight-service-tokamak/pull-requests/37
+aunsight-service-tokamak,"Feature/AUN-8661 submitted by",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-tokamak/pull-requests/35
+aunsight-service-tokamak,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-tokamak/pull-requests/34
+aunsight-service-tokamak,"Feature/AUN-8638 dataflow resources",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-tokamak/pull-requests/32
+aunsight-service-tokamak,"AUN-8570 Source and manifest for BatchRename jar",Robert Jones,https://bitbucket.org/au-developers/aunsight-service-tokamak/pull-requests/33
+aunsight-service-tokamak-lib-js,"AUN-9476 added transfer-dataflow-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-tokamak-lib-js/pull-requests/6
+aunsight-service-tokamak-lib-js,"AUN-8665: fixed schema indentation; changed view to delete",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-tokamak-lib-js/pull-requests/5
+aunsight-service-tracker,"AUN-8310",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-tracker/pull-requests/19
+aunsight-service-tracker,"AUN-9249: add SG event listening to default config & defs",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-tracker/pull-requests/20
+aunsight-service-tracker,"Feature/AUN-8888 download images",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-tracker/pull-requests/21
+aunsight-service-tracker,"AUN-8877: added configs for AuQL listening",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-tracker/pull-requests/18
+aunsight-service-tracker,"AUN-7372 status_updated_at field",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-tracker/pull-requests/14
+aunsight-service-tracker,"AUN-8757 Updated Indexes",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-tracker/pull-requests/16
+aunsight-service-tracker,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-tracker/pull-requests/15
+aunsight-service-tracker-lib-js,"AUN-8912 Relax schemas on update for status and structured_status",Robert Jones,https://bitbucket.org/au-developers/aunsight-service-tracker-lib-js/pull-requests/7
+aunsight-service-tracker-lib-js,"AUN-7372 status_updated_at field",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-tracker-lib-js/pull-requests/6
+aunsight-service-workflow,"AUN-7263: moved script to workflow service repo",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-workflow/pull-requests/12
+aunsight-service-workflow,"AUN-9476 added transfer-workflow-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-workflow/pull-requests/18
+aunsight-service-workflow,"AUN-6723",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-workflow/pull-requests/13
+aunsight-service-workflow,"AUN-9499 changed to use v2-view-merged-converted-resource",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-workflow/pull-requests/17
+aunsight-service-workflow,"AUN-8757 Updated Indexes",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-workflow/pull-requests/16
+aunsight-service-workflow,"AUN-8667 Auth & Encryption Support",Parin Patel,https://bitbucket.org/au-developers/aunsight-service-workflow/pull-requests/15
+aunsight-service-workflow-lib-js,"AUN-9476 added transfer-workflow-ownership cmd",Nathan Smith,https://bitbucket.org/au-developers/aunsight-service-workflow-lib-js/pull-requests/6
+aunsight-service-workflow-lib-js,"AUN-6723",Blake Robertson,https://bitbucket.org/au-developers/aunsight-service-workflow-lib-js/pull-requests/4
+aunsight-service-workflow-lib-js,"AUN-8552: fix to delete schema id; fixed tabbing and spacing",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-service-workflow-lib-js/pull-requests/5
+aunsight-toolbelt,"AUN-9477 obj ctx management",Nathan Smith,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/63
+aunsight-toolbelt,"Feature/AUN-9362 add lib js for dslab workspace",Rahul Shah,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/62
+aunsight-toolbelt,"AUN-8981 auql dsl improvements",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/60
+aunsight-toolbelt,"Converts dslab empty string --command to undefined",Nick Weiler,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/53
+aunsight-toolbelt,"Feature/AUN-7678 ds lab instances as project",Nick Weiler,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/59
+aunsight-toolbelt,"AUN-8849",Blake Robertson,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/61
+aunsight-toolbelt,"AUN-8327",Blake Robertson,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/55
+aunsight-toolbelt,"AUN-7372 proc ttl",Nathan Smith,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/34
+aunsight-toolbelt,"AUN-8407: added command for parsing auql dsl to json",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/54
+aunsight-toolbelt,"Feature/AUN-8661 submitted by",Blake Robertson,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/56
+aunsight-toolbelt,"AUN-8759: adds data hash command",Gregory Neeser,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/58
+aunsight-toolbelt,"Fixes tags for dslab project show command",Nick Weiler,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/57
+aunsight-toolbelt,"Nest properties in top-level object",Nick Weiler,https://bitbucket.org/au-developers/aunsight-toolbelt/pull-requests/51
+aunsight-webapp has more than 50 PRs FIX THEM
+Total size : 124

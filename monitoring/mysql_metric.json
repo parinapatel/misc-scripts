@@ -1,0 +1,13 @@
+{
+  "checks": {
+   
+    "RANCHER_MYSQL_METRICS": {
+    "type": "metric",
+    "handlers": [ "graphite" ],
+    "command": "metrics-mysql-graphite.rb -p cattle -u cattle -h 10.10.3.5 -P 3306",
+    "interval": 15,
+    "output_format": "graphite_plaintext",
+    "standalone": true
+  }
+}
+}
