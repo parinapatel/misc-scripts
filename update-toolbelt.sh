@@ -3,15 +3,16 @@
 VERSION=$1
 #echo $VERSION
 
-cd /usr/local/bin/
+mkdir -p ~/toolbelt
+cd ~/toolbelt
 curl https://artifacts.aunalytics.com/toolbelt/Toolbelt-latest/version.txt
-sudo rm /usr/local/bin/aunsight-toolbelt2-macos
-
 
 if [ -n "$VERSION" ]; then
-  sudo wget https://artifacts.aunalytics.com/toolbelt/Toolbelt-V$VERSION/aunsight-toolbelt2-macos
+  curl https://artifacts.aunalytics.com/toolbelt/Toolbelt-V$VERSION/aunsight-toolbelt2-macos -o "toolbelt_new"
 else
-  sudo wget https://artifacts.aunalytics.com/toolbelt/Toolbelt-latest/aunsight-toolbelt2-macos
+  curl https://artifacts.aunalytics.com/toolbelt/Toolbelt-latest/aunsight-toolbelt2-macos -o "toolbelt_new"
 fi
 
-sudo chmod +x aunsight-toolbelt2-macos
+mv aunsight-toolbelt2-macos aunsight-toolbelt2-macos_old
+mv toolbelt_new aunsight-toolbelt2-macos
+chmod +x ./aunsight-toolbelt2-macos
