@@ -2,7 +2,7 @@
 JIRA_URL="$1"
 TOKEN="$2"
 SWIM_LANE="$3"
-
+# ./jira_pr_status.sh aunalytics.atlassian.net  cGFyaW4ucGF0ZWxAYXVuYWx5dGljcy5jb206dlpRUm9SUm9PcjZkYmJJOTVKNmpCMDk1  'Quality Assurance'
 if [[ $# -ne 3 ]]
 then
   echo "usage ./jira_pr_status.sh JIRA_URL authToken Swimlane(Quality Assurance or Production Ready)"

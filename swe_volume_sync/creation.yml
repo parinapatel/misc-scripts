@@ -1,0 +1,99 @@
+
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: nfs-data-old-data
+  labels:
+    aunsight-purpose : software-stack
+    sonar-version: "7.x"
+    app: sonarqube
+    managed-by: devops
+spec:
+  nfs:
+    path: OLD_NFS_PATH
+    server: nfs05v13.aunalytics.com
+    readOnly : False
+  accessModes:
+  - ReadWriteMany
+  capacity: 
+    storage: 30Gi
+  persistentVolumeReclaimPolicy: Retain
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pvc-old
+spec:
+  accessModes: 
+  - ReadWriteMany
+  volumeName:  nfs-data-old-data
+  resources:
+    requests:
+      storage: 20Gi
+    limits:
+      storage: 30Gi
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: VOL_NAME-pvc-data
+  labels:
+    aunsight-purpose : software-stack
+    sonar-version: "7.x"
+    app: VOL_NAME
+    managed-by: devops
+spec:
+  accessModes: 
+  - ReadWriteMany
+  storageClassName: secluster-nonpersistent-01
+  resources:
+    requests:
+      storage: 10Gi
+    limits:
+      storage: 50Gi
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name:  copy-job-VOL_NAME
+  labels:
+    purpose: copy-data
+spec:
+  completions: 1
+  ttlSecondsAfterFinished: 10
+  template:
+
+    spec:
+      restartPolicy: OnFailure
+      automountServiceAccountToken: false
+      imagePullSecrets: 
+      - name : image-registry
+      nodeSelector:
+        hostType: swesupport  
+      containers:
+        - args:
+          - rsync 
+          - -pogtr
+          - --human-readable
+          - --verbose
+          - /src_data/
+          - /dst_data
+          image: eeacms/rsync
+          imagePullPolicy: IfNotPresent
+          stdin: true
+          tty: true
+          name : copy-job
+          volumeMounts:
+            - mountPath: /src_data
+              name: src-data
+              readOnly: true
+            - name: dst-data
+              mountPath: /dst_data
+      volumes:
+        - persistentVolumeClaim:
+            claimName: VOL_NAME-pvc-data
+          name : dst-data
+        - persistentVolumeClaim:
+            claimName: pvc-old
+          name: src-data
